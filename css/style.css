@@ -203,6 +203,13 @@ header {
 }
 
 /* ---------------------------------------- */
+/* TEAM */
+/* ---------------------------------------- */
+.section-team {
+    margin-bottom: 30px;
+}
+
+/* ---------------------------------------- */
 /* SERVICES */
 /* ---------------------------------------- */
 
@@ -210,3 +217,23 @@ header {
     padding: 0;
 }
 
+/* ---------------------------------------- */
+/* REVIEW */
+/* ---------------------------------------- */
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: relative;
+    top: -5;
+    left: -5px;
+}
