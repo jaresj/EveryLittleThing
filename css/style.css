@@ -1,4 +1,4 @@
-/* GREEN COLOR: #88b06a */
+/* GREEN COLOR: #315694 */
 
 /* ---------------------------------------- */
 /* BASIC SETUP */
@@ -44,7 +44,7 @@ h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #88b06a;
+    color: #315694;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -66,7 +66,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #88b06a;
+    background-color: #315694;
     content: "";
     width: 100px;
     margin: 0 auto;
@@ -89,7 +89,7 @@ h2:after {
 /* ------- LINKS ------- */
 a:link,
 a:visited {
-    color: #88b06a;
+    color: #315694;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px;
@@ -117,35 +117,35 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #88b06a;
-    border: 1px solid #88b06a;
+    background-color: #315694;
+    border: 1px solid #315694;
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #88b06a;
-    color: #88b06a;
+    border: 1px solid #315694;
+    color: #fff;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #5f794c;
-    border: 1px solid #5f794c;
+    background-color: #315694;
+    border: 1px solid #315694;
 
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #5f794c;
+    border: 1px solid #315694;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #5f794c;
+    border: 1px solid #315694;
     color: #fff;
 }
 
@@ -154,13 +154,17 @@ input[type=submit]:active {
 /* ---------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.gstatic.com/bfe/apps/website/img/h/90389597-pencil-tools-1440.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.gstatic.com/bfe/apps/website/img/h/90389597-pencil-tools-1440.jpg);
     background-size: cover;
     background-position: center;
     height: 75vh;
     background-attachment: fixed;
     margin-bottom: 10px;
     
+}
+
+nav {
+    background-color: #fff;
 }
 
 .hero-text-box {
@@ -171,11 +175,19 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
 /* MAIN NAV */
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 55px;
+    
 }
 
 .main-nav li {
@@ -186,7 +198,7 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-    color: #fff;
+    color: #315694;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -215,6 +227,18 @@ header {
 
 .section-services {
     padding: 0;
+    display: block;
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.service-feature {
+    margin-bottom: 5px;
 }
 
 /* ---------------------------------------- */
